@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var canvas = document.getElementById("golCanvas");
-    canvas.width = $('.titlecontainer').width();
-    canvas.height = $('.titlecontainer').height();
+    canvas.width = $(".titlecontainer").width();
+    canvas.height = $(".titlecontainer").height();
     var WIDTH = canvas.width;
     var HEIGHT = canvas.height;
     var ctx = canvas.getContext("2d");
