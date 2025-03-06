@@ -7,17 +7,47 @@ body {
 }
 
 .navbar {
-    background-color:#080808;
-    overflow: hidden;
+    background-color:#67597A;
+    overflow: visible;
     position: sticky;
     top: 0;
     z-index:1;
+    height: 44px;
+    display:flex;
 
 
 }
 
+.navbar button {    
+    background-color: transparent;
+    color: #f2f2f2;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    border:none;
+}
+
+.dropdown {
+    z-index: 0;
+    height: 44px;
+}
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    height: 44px;
+    top: 100%;
+    z-index: 3;
+    background-color: #67597A;
+}
+
+.dropdown:hover .dropdowncontent {
+    display:block;
+
+}
+
 .navbar p {
-    float: right;
+    margin-left: auto;
     color: #f2f2f2;
     text-align: center;
     text-decoration: none;
@@ -32,7 +62,6 @@ body {
     padding:14px 16px;
     text-decoration: none;
     font-size: 16px;
-    z-index: 1;
 }
 
 .navbar a:hover {
@@ -40,9 +69,15 @@ body {
     color: black;
 }
 
+
 .navbar a:active {
     background-color: #F4ACB7;
     color: #f2f2f2;
+}
+
+.navbar button:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 p {
@@ -55,6 +90,10 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     -webkit-text-stroke: 1px;
@@ -64,14 +103,14 @@ h1 {
 .titlecontainer {
     text-align: center;
     position: relative;
-    height: 1%;
+    height: 220px;
     border-bottom: 5px solid black;
 }
 
 .titlecontainer h1 {
     color: #080808;
     position: absolute;
-    top: 60px;
+    top: 90px;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1%;
@@ -100,12 +139,13 @@ hr {
 
 .column {
     float:left;
-    width:32.3%;
+    width:30.3%;
     margin-top: 1%;
     margin-right: 0.5%;
     margin-left: 0.5%;
     overflow-wrap: break-word;
     border-radius: 10px;
+    padding:1%;
 
 
 }
@@ -115,9 +155,16 @@ hr {
 }
 
 .column img {
-    border: solid 5px 
+    border: solid black 5px;
+    border-radius: 5px;
+    object-fit:contain; 
+    width:98%;
+    height:98%;
 }
 
+.column p {
+    color: white;
+}
 .row::after {
     content:"";
     display:table;
@@ -138,8 +185,23 @@ hr {
 }
 
 .buttoncontainer {
-    margin-top: 10%;
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 25px;
 }
+
+.buttoncontainer a {
+    color:white;
+    padding:1%;
+    background-color: #080808;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+
+
 
 
 

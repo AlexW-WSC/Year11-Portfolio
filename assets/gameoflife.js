@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var canvas = document.getElementById("golCanvas");
-    canvas.width = $(".titlecontainer").width();
+    canvas.width = $(document).width();
     canvas.height = $(".titlecontainer").height();
     var WIDTH = canvas.width;
     var HEIGHT = canvas.height;
@@ -8,7 +8,7 @@ $(document).ready(function() {
     var LEN = 10;
     var x = Math.floor(WIDTH / LEN);
     var y = Math.floor(HEIGHT / LEN);
-    var myGol;
+    var myGol;          
     var golTmp;
 
     function initTmp() {
