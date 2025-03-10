@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project 1</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="assets/gameoflife.js"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <a class="active" href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
     
-</body>
-</html>
+            <div class="dropdown">
+                <button class="dropbtn">Projects</button>
+                <div class="dropdowncontent">
+                    <a href="project1.html">Project 1</a>
+                    <a href="project2.html">Project 2</a>
+                    <a href="project3.html">Project 3</a>
+                </div>
+            </div>
+            <p><b>Year 11 Portfolio</b></p>
+        </div>
+    
+        <div class="titlecontainer">
+            <h1>Website Portfolio - Project 1</h1>
+            <canvas id="golCanvas"></canvas>
+        </div>

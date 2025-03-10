@@ -251,6 +251,40 @@ hr {
     border: solid black 5px;
 }
 
+.contactcontainer {
+    display:flex;
+    border-bottom: black 5px solid;
+    border-right: solid black 5px;
+}
+
+.contactcontainer h2 {
+    color:#002E2C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.socials {
+    margin: 0%;
+    flex:50%;
+    align-items: center;
+    text-align: center;
+    border-right: solid black 2.5px;
+    justify-content: center;
+}
+
+.socials img {
+    height: 100px;
+    padding: 2%;
+}
+
+
+.form {
+    display:inline-block;
+    flex:50%;
+    border-left: solid black 2.5px;
+}
+
+
 
 
 
