@@ -253,7 +253,6 @@ hr {
 
 .contactcontainer {
     display:flex;
-    border-bottom: black 5px solid;
     border-right: solid black 5px;
 }
 
@@ -282,6 +281,72 @@ hr {
     display:inline-block;
     flex:50%;
     border-left: solid black 2.5px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form img {
+    height: 25px;
+}
+
+.contactinputs {
+    width: 500px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color:#002E2C;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    padding-left: 15px;
+}
+
+.form textarea {
+    height: 200px;
+    border-radius: 20px;
+    padding-top: 15px;
+}
+
+.form button {
+    display:flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #002E2C;
+    background-color: #FFFF;
+    border:none;
+    gap: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    border: 2px solid #67597A;
+}
+
+.contactinputs:focus {
+    border: 2px solid #F4ACB7;
+}
+
+.form textarea:focus {
+    border: 2px solid #79ADDC;
+}
+
+.contactinputs::placeholder {
+    color:#002E2C;
 }
 
 

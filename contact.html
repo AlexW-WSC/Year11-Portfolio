@@ -33,17 +33,24 @@
     <div class="contactcontainer">
         <div class="socials">
                 <h2>Socials</h2>
-                <img src="assets/mail.png"> 
-                <img src="assets/instagram.png"> 
-                <img src="assets/discord.png"> 
+                <a href="https://github.com/AlexW-WSC" target="_blank"><img src="assets/github.png"></a>
+                <a href="https://instagram.com/alexxstarr_" target="_blank"><img src="assets/instagram.png"></a>
+                <a href="https://discordapp.com/users/630884888324734987" target="_blank"><img src="assets/discord.png"></a>
+                <a href="https://x.com" target="_blank"><img src="assets/twitter.png"></a>
+
         </div>
         <div class="form">
-            
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="a9b2ddc3-3e77-4267-a080-be14792a0211">
+                <h2>Contact Form</h2>
+                <div class="contact">
+                <input type="text" name="name" placeholder="Organisation/Personal Name..." class="contactinputs" required>
+                <input type="email" name="email" placeholder="Your email.." class="contactinputs" required>
+                <textarea name="message" placeholder="Your message..." class="contactinputs" required></textarea>
+                <button type="submit">Submit<img src="assets/checkmark-512.png"></button>
+            </form>
         </div>
     </div>
 
-    <div class="formcontainer">
-
-    </div>
 </body>
 </html>
