@@ -227,7 +227,6 @@ hr {
 }
 
 
-
 .profilediv h1 {
     text-align: start;
 }
@@ -272,7 +271,7 @@ hr {
 }
 
 .socials img {
-    height: 100px;
+    height: 200px;
     padding: 2%;
 }
 
@@ -347,6 +346,55 @@ hr {
 
 .contactinputs::placeholder {
     color:#002E2C;
+}
+
+.projectdiv {
+    margin-top:1%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    border-radius: 10px;
+    padding-top:0.5%;
+    padding-left: 1%;
+    padding-right:1%;
+    padding-bottom: 1%;
+}
+
+.projectdiv h2 {
+    text-align: center;
+}
+
+.projectcontents {
+    display: flex;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+    align-items: center;
+    gap:20px;
+}
+
+.projectcontents img  {
+    border: solid black 5px;
+    border-radius: 5px;
+    object-fit:contain; 
+    height:300px;
+}
+
+.projectcontents p {
+    color: white;
+    text-align: center;
+}
+
+
+#blue {
+    background-color: #79ADDC;
+}
+
+#pink {
+    background-color: #F4ACB7;
+
+}
+
+#purple {
+    background-color: #67597A ;
 }
 
 
