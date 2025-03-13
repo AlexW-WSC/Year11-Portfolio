@@ -226,6 +226,11 @@ hr {
 
 }
 
+.buttoncontainer a:hover {
+    border: solid 2px #79ADDC;
+    color: #79ADDC;
+}
+
 
 .profilediv h1 {
     text-align: start;
